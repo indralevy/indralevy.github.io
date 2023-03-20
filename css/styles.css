@@ -159,22 +159,22 @@ sup {
 }
 
 a {
-  /* color: #400077;
+  color: #400077;
   text-decoration: none;
-  background-color: transparent; */
+  background-color: transparent;
 }
 a:hover {
-  /* color: #400077;
-  text-decoration: underline; */
+  color: #400077;
+  text-decoration: underline;
 }
 
 a:not([href]):not([class]) {
-  /* color: inherit;
-  text-decoration: none; */
+  color: inherit;
+  text-decoration: none;
 }
 a:not([href]):not([class]):hover {
-  /* color: inherit;
-  text-decoration: none; */
+  color: inherit;
+  text-decoration: none;
 }
 
 pre,
@@ -230,7 +230,7 @@ label {
 }
 
 button {
-  /* border-radius: 0; */
+  border-radius: 0;
 }
 
 button:focus {
@@ -398,14 +398,11 @@ h6, .h6 {
   height:360px;
 } */
 
-/* anchor */
-a { 
-  /* color: inherit; */
- }
+a { color: inherit; }
 
 a:hover{ 
-  /* color: inherit; */
-  /* text-decoration:none;  */
+  color: inherit;
+  text-decoration:none; 
   cursor:pointer;  
 }
 
@@ -626,8 +623,8 @@ div.gallery img {
 .grid-contact {
   /* height: 250px;
   width: 360px; */
-  height: 195px;
-  width: 590x;
+  height: 300px;
+  width: 500px;
   background-color: #e0e0e0;
   box-shadow: 
     12px 12px 16px 0 rgba(0, 0, 0, 0.25),
@@ -637,7 +634,7 @@ div.gallery img {
   position: relative;
   display: block;
   max-width: 100rem;
-  border-radius: 40px;
+  border-radius: 30px;
   overflow: hidden;
 /*   
   height: 600px;
@@ -651,20 +648,12 @@ div.gallery img {
   text-align: center;
   font-size: 15px; */
 }
-/* tombol-download */
-.optionbtn{
-  position: relative;
-  display: inline-block;
-}
 
 .downbtn {
   /* font-size: 30px; */
-  padding: 15px 32px;
-  color: white;
-  text-decoration: none;
   text-align: center;
-  /* font-size: 50px; */
-  height: 100px;
+  /* font-size: 15px; */
+  height: 90px;
   width: 200px;
   background-color: #301574;
   box-shadow: 
@@ -672,11 +661,11 @@ div.gallery img {
     -6px -6px 10px 0 rgba(255, 255, 255, 0.726);
   border-radius: 40px;
   cursor: pointer;
-  /* position: relative; */
-  /* display: block; */
-  /* max-width: 100rem; */
-  border-radius: 40px;
-  /* overflow: hidden; */
+  position: relative;
+  display: block;
+  max-width: 100rem;
+  border-radius: 30px;
+  overflow: hidden;
 }
 
 .downbtn2-content {
@@ -689,11 +678,9 @@ div.gallery img {
   z-index: 1;
 }
 
-.downbtn::-ms-expand .downbtn2-content {
+.downbtn:click .downbtn2-content {
   display: block;
 }
-
-
 
 /* .grid-item:hover{ */
   /* background-color: rgb(238, 238, 238); */
@@ -2775,7 +2762,7 @@ textarea.form-control {
   }
 }
 .btn:hover {
-  /* color: #212529; */
+  color: #212529;
   text-decoration: none;
 }
 .btn:focus, .btn.focus {
