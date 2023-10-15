@@ -1,0 +1,4 @@
+This is a Brave Creators publisher verification file.
+
+Domain: indralevy.github.io
+Token: f3a9afedc80f3354b3e8ed5c676096feb8bac733af84d6a704ddbc165db98ebb
